@@ -1,0 +1,166 @@
+body{
+    margin: 0%;
+    background-color: #171717;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo1 img{
+    height: 100px;
+}
+
+.logo1 p{
+    text-decoration: none;
+    font-size: 35px;
+    font-family: fantasy;
+    font-weight: 500;
+    padding: 10px 50px;
+    color: red;
+    font-style: italic;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.nav-sd2 ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-sd2 ul>li{
+    cursor: pointer;
+    /* padding-right: 10px; */
+    padding: 10px 30px;
+    font-size: 35px;
+    /* list-style: none; */
+}
+
+.nav-sd2 ul>li{
+    list-style: none;
+    color: white;
+}
+
+.nav-sd2 ul>li:hover{
+    border-radius: 10px;
+    background-color: black;
+    /* color: white; */
+    transition: all 0.3s ease-in-out;
+    color: red;
+}
+.content1{
+    display: flex;
+    justify-content: end;
+    background-image: url(images/galaxy\ lion.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    border: 1px solid white;
+}
+.sub-content1{
+    align-self: end;
+    color: white;
+    font-size: 85px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-style: italic;
+    padding-right: 50px;
+    padding-top: 10px;
+    text-shadow: 1px 10px 10px red;
+}
+#ch{
+    font-size: 35px;
+}
+.sub-content1:hover{
+    color: rgb(255, 0, 43);
+    text-shadow: 1px 10px 10px cyan;
+}
+
+.container2{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.content2{
+    display: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-content2{
+    text-align: center;
+    /* align-items: center; */
+    font-size: 45px;
+}
+
+#sh{
+    text-align: center;
+    align-self: flex-end;
+    font-size: 25px;
+}
+
+.container4{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.container4 >.container3{
+    width: 800px;
+}
+
+.sub-container1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.img1{
+    height: 250px;
+    border-radius: 15px;
+    background-size: cover;
+    border: 1px solid transparent;
+    width: 200px;
+    padding: 5px;
+    /* position: absolute; */
+}
+
+.img2{
+    height: 250px;
+    border-radius: 15px;
+    width: 195px;
+    padding: 5px;
+}
+
+.names{
+    display: flex;
+    justify-content: end;
+    color: white;
+    font-family: fantasy;
+}
+.names1{
+    display: flex;
+    justify-content: start;
+    color: white;
+    font-family: fantasy;
+}
+
+.sub-container2{
+    display: flex;
+    /* padding-left: 50px; */
+}
+
+.sub-content4{
+    font-size: 50px;
+    background: linear-gradient(45deg, cyan,rgb(212, 25, 212));
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 5px 15px;
+}
