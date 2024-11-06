@@ -159,8 +159,88 @@ body{
 
 .sub-content4{
     font-size: 50px;
-    background: linear-gradient(45deg, cyan,rgb(212, 25, 212));
+    background: linear-gradient(45deg, cyan,rgb(212, 25, 212),pink,white);
     -webkit-background-clip: text;
     color: transparent;
-    padding: 5px 15px;
+    /* padding: 5px 15px; */
+}
+
+.give{
+    font-family: monospace;
+}
+
+.sub-container3{
+    display: flex;
+    /* margin: 0%; */
+    /* justify-content: flex-start; */
+}
+
+.sub-content5{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.eth{
+    display: flex;
+    flex-wrap: wrap;
+    color: red;
+    width: 500px;
+}
+
+.container7{
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(35deg, cyan,rgb(187, 52, 187),violet,pink);
+    /* background-color: #bfc500; */
+    height: 70px;
+    padding: 1.3vh;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.sub-container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#btn{
+    flex-basis: 200px;
+    color: cyan;
+    background-color: black;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 8px;
+    border: 0px;
+    font-size: 16px;
+    height: 75px;
+    width: 240px;
+}
+
+#gr{
+    flex-basis: 350px;
+    color: black;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+    /* text-align: center; */
+    align-self: center;
+}
+
+#buy{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: fantasy;
+    align-self: center;
+    color: #000;
+}
+
+#btn:hover{
+    color: black;
+    background-color: cyan;
 }
