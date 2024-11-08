@@ -1,5 +1,6 @@
 body{
-    margin: 0%;
+    margin-left: 50px;
+    margin-right: 50px;
     background-color: #171717;
 }
 
@@ -184,7 +185,7 @@ body{
 .eth{
     display: flex;
     flex-wrap: wrap;
-    color: red;
+    color: rgb(196, 166, 0);
     width: 500px;
 }
 
@@ -196,8 +197,9 @@ body{
     /* background-color: #bfc500; */
     height: 70px;
     padding: 1.3vh;
-    margin-left: 30px;
-    margin-right: 30px;
+    border-radius: 10px;
+    /* margin-left: 30px; */
+    /* margin-right: 30px; */
 }
 
 .sub-container4{
@@ -243,4 +245,78 @@ p{
 #btn:hover{
     color: black;
     background-color: cyan;
+}
+
+.container8{
+    display: flex;
+    /* justify-content: left; */
+}
+
+.spcs{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.ec{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sub-container5{
+    display: flex;
+    align-items: flex-start;
+}
+
+.sub-content7{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.move-image{
+    position: relative;
+    animation: move 5s infinite;
+}
+
+@keyframes move{
+    0% { left: 0; }
+    50% { left: 200px; }
+    100% { left: 0; }
+}
+
+.container9{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sub-container6{
+    display: flex;
+}
+
+.sub-content7{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px;
+}
+
+.cave{
+    position: relative;
+    display: flex;
+    align-items: left;
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+    padding-right: 100px;
+}
+
+.cvp{
+    color: white;
+    font-family: sans-serif;
+}
+
+.abandoned{
+    display: flex;
+    position: absolute;
+    right: 70px;
 }
